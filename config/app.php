@@ -137,6 +137,9 @@ return [
         Illuminate\Validation\ValidationServiceProvider::class,
         Illuminate\View\ViewServiceProvider::class,
 
+        // Captcha ???
+        Mews\Captcha\CaptchaServiceProvider::class,
+
         /*
          * Application Service Providers...
          */
